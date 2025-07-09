@@ -1,6 +1,6 @@
 import random
-a = random.randint(-99,99)
-b = random.randint(-99,99)
+a = random.randint(1,99)
+b = random.randint(1,99)
 c = random.randint(1,4)
 if c == 1:
     d = a + b
