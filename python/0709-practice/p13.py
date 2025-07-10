@@ -13,6 +13,6 @@ for i in range(num+1):
         element1 = sum
 
     if i != num:
-        print(sum,end=" ")
+        print(sum,end=",")
     else:
         print(sum)
