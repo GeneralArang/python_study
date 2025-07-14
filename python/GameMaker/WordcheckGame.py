@@ -12,7 +12,7 @@ print("게임을 시작합니다. 2초안에 단어를 입력하세요")
 print("2초를 초과할때마다 생명력이 감소합니다.")
 
 while True:
-    Give = random.sample(Word,1)[0]
+    Give = random.sample(Word,1)[0] #sample함수를 쓰면 리스트가 나온다 그걸 str로 바꾸기 위해 뒤에 [0]을 추가로 기입한다.
     print(f"주어진 단어는 <{Give}>입니다.")
     input("준비가 되면 Enter를 누르세요.")
 #시간 측정
@@ -26,6 +26,7 @@ while True:
         print("정답입니다.")
         score += 1
     else:
+        Life -= 1
         print("오답입니다.")
 #생명력 판단
     if Life <= 0:
