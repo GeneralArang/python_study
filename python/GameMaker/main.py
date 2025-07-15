@@ -75,7 +75,7 @@ def update_words():
     y += random.randint(2,5)
     if y > 600:
         y = 0
-    screen.blit(text,(x, y))
+    screen.blit(word,(x, y))
 
 
 def check_input():

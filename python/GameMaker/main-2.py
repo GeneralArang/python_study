@@ -31,7 +31,7 @@ def add_falling_word():
     x = random.randint(50,700)
     y = 0
     speed = random.randint(2,5)
-    falling_wordsq.append({"word": word, "x": x, "y" :y, "speed": speed})
+    falling_words.append({"word": word, "x": x, "y" :y, "speed": speed})
 
 
 def update_words():
